@@ -1,0 +1,23 @@
+Coding:
+d=int(input(&quot;Enter Number of days: &quot;))
+fine=0
+if(d&lt;=5):
+fine=d*0.50
+print(&quot;Fine : &quot;,float(fine))
+elif(d&gt;5 and d&lt;=10):
+i=d-5
+fine=(i*1)+(5*0.5)
+print(&quot;Fine : &quot;,float(fine))
+elif(d&gt;10 and d&lt;=30):
+i=d-10
+fine=(i*5)+(5*0.5)+(5*1)
+print(&quot;Fine : &quot;,float(fine))
+else:
+i=d-10
+fine=(i*5)+(5*0.5)+(5*1)
+print(&quot;Your Membership is cancelled&quot;)
+print(&quot;Fine amount (Rs): &quot;,float(fine))
+
+Output:
+Enter Number of days: 14
+Fine amount (Rs): 27.5
